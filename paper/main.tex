@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,geometry,hyperref,booktabs}
+\geometry{margin=1in}
+
+\title{The Green--Schur Bridge for OPAC-018:\\A Clean Referee Edition of a Classification-Free Cartan--Schur Proof Candidate}
+\author{Shawn Calvin Snelling\\Axezent AI Research Lab}
+\date{Clean Referee Edition v1.5.0}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This manuscript is a proof-candidate package for OPAC-018, the root-polytope projection bound problem. The proposed route is a Green--Schur method combining invariant-metric Cartan data, Schur complements, crystallographic integrality, and Cellini--Marietti style projection reduction. The package includes exact-arithmetic audits and explicit nonclaim boundaries. The result is not presented as peer-reviewed or accepted; it is submitted for external mathematical review.
+\end{abstract}
+
+\section{Truth boundary}
+This document is a solution-candidate manuscript. The accompanying Python and Sage scripts are reproducibility aids and exact-arithmetic sanity checks; they are not substitutes for independent referee verification. No claim is made about P vs NP, the Riemann Hypothesis, the Traveling Salesman Problem, journal acceptance, arXiv acceptance, or historical recognition.
+
+\section{OPAC-018 target}
+Let $\Phi$ be a finite crystallographic root system in a Euclidean vector space $V$. Let $U\subseteq V$ be a nonzero $\Phi$-subspace, meaning that $\Phi\cap U$ spans $U$. Define $\kappa(\Phi,U)$ to be the least $\kappa\geq 1$ such that
+\[
+\pi_U(\operatorname{ConvHull}(\Phi))\subseteq \kappa\operatorname{ConvHull}(\Phi\cap U).
+\]
+The target of OPAC-018 is a uniform, classification-free proof that
+\[
+\kappa(\Phi,U)<2.
+\]
+
+\section{Projection and convex hulls}
+For every linear map $L$ and finite set $S$,
+\[
+L(\operatorname{ConvHull}(S))=\operatorname{ConvHull}(L(S)).
+\]
+Thus, once projected-root containment is established, full polytope containment follows by convexity. The hard step is proving the correct containment for all projected roots under the root-system hypotheses.
+
+\section{Metric Cartan convention}
+The audit scripts use the convention
+\[
+A_{ij}=\frac{2(\alpha_i,\alpha_j)}{(\alpha_j,\alpha_j)}.
+\]
+For non-simply-laced types, define
+\[
+D_\epsilon=\operatorname{diag}\left(\frac{(\alpha_j,\alpha_j)}{2}\right).
+\]
+Then
+\[
+G=A D_\epsilon
+\]
+is symmetric and positive definite for finite crystallographic root systems. Schur complement analysis should be performed using the symmetric metric matrix $G$, not by treating an asymmetric Cartan matrix as an ordinary Gram matrix.
+
+\section{Green--Schur local mechanism}
+The candidate local mechanism isolates a codimension-one or adapted block split of the invariant metric form:
+\[
+G=\begin{pmatrix}G_{UU}&G_{UW}\\G_{WU}&G_{WW}\end{pmatrix}.
+\]
+When $G_{WW}$ is invertible, the Schur complement is
+\[
+S=G_{UU}-G_{UW}G_{WW}^{-1}G_{WU}.
+\]
+The intended role of $S$ is to encode the corrected metric seen by the projected subspace. The proof obligation is to show that the resulting Green ratio or projected-root functional stays strictly below the OPAC threshold under the crystallographic hypotheses.
+
+\section{Asymptotic margin caution}
+This package does not claim a rank-independent uniform gap below $2$. The safe finite-rank target is
+\[
+\forall n<\infty,\quad \kappa(\Phi_n,U_n)<2,
+\]
+while the margin $2-\kappa(\Phi_n,U_n)$ may shrink with $n$. In particular, for type $A_n$,
+\[
+(A_n^{-1})_{ij}=\frac{\min(i,j)(n+1-\max(i,j))}{n+1},
+\]
+so central inverse entries grow with rank. Therefore, the proof must control the specific Schur/Green functional entering the projection, not the full inverse operator norm in isolation.
+
+\section{Oblique subspaces}
+A $\Phi$-subspace need not be aligned with the displayed simple-root basis. The proof must therefore be invariant under adapted-basis choices and must depend on crystallographic pairings rather than accidental coordinate sparsity. Dense fractional coordinates in a poor basis are not by themselves a failure, but the adapted-basis reduction must be explicitly justified.
+
+\section{Cellini--Marietti transfer}
+The proposed bridge uses Cellini--Marietti style reduction only under explicitly stated hypotheses. A complete referee verification must check that notation, hypotheses, and containment quantities match the cited framework and that no classification list is smuggled into the proof.
+
+\section{Audit support}
+The repository provides:
+\begin{itemize}
+\item a pure-Python exact-arithmetic audit independent of Sage, NumPy, SymPy, and root-system libraries;
+\item a SageMath audit script;
+\item a counterexample stress-test showing rejection/out-of-scope behavior for invalid inputs;
+\item SHA-256 manifest verification.
+\end{itemize}
+The audit set contains 32 finite Cartan systems as reproducibility evidence. It is not the logical basis of a classification-free proof.
+
+\section{Conclusion}
+The Green--Schur Bridge package is submitted as a structured, reproducible proof candidate for OPAC-018. Its central mathematical burden remains the written classification-free proof: the Green ratio lemma, the Schur complement bound in adapted metric form, the non-simply-laced symmetrizer handling, the oblique-subspace reduction, and the Cellini--Marietti transfer.
+
+\end{document}
