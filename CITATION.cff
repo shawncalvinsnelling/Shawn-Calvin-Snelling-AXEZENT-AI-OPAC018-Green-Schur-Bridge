@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "The Green-Schur Bridge for OPAC-018: Clean Referee Edition"
+version: "1.5.0"
+date-released: "2026-06-30"
+authors:
+  - family-names: "Snelling"
+    given-names: "Shawn Calvin"
+affiliation: "Axezent AI Research Lab"
+repository-code: "https://github.com/shawncalvinsnelling/AXEZENT-AI-OPAC018-Green-Schur-Bridge"
+license: "MIT"
+keywords:
+  - root systems
+  - root polytopes
+  - algebraic combinatorics
+  - Schur complement
+  - exact arithmetic
+  - proof audit
+abstract: "A clean solution-candidate referee package for OPAC-018 with exact-arithmetic audits and explicit truth boundaries."

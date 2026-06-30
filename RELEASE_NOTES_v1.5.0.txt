@@ -1,0 +1,27 @@
+v1.5.0 Clean Referee Reset
+
+This release is a clean-room repository rebuild for the OPAC-018 Green-Schur Bridge solution-candidate package.
+
+Added:
+- referee roadmap and reviewer navigation files;
+- clean claim/nonclaim boundaries;
+- candidate manuscript source and PDF overview;
+- exact-arithmetic pure-Python audit;
+- SageMath audit script;
+- counterexample stress-test protocol;
+- SHA-256 manifest verification;
+- GitHub Actions workflows for manifest, pure-Python audit, counterexample stress test, and manual Sage audit;
+- GitHub Pages-ready website;
+- asymptotic margin safety correction;
+- Schur complement caveats;
+- non-simply-laced metric symmetrizer notes;
+- oblique-subspace lattice-bound notes;
+- convex-hull containment bridge;
+- Cellini-Marietti transfer checklist;
+- issue templates for proof gaps, reproducibility, and notation questions.
+
+Truth boundary:
+This release does not claim journal acceptance, official OPAC acceptance, arXiv acceptance, P vs NP, the Riemann Hypothesis, the Traveling Salesman Problem, or any unrelated open-problem solution.
+
+Status:
+SOLUTION-CANDIDATE / EXTERNAL REVIEW PENDING.

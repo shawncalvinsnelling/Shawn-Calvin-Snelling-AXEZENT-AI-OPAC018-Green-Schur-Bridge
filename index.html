@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AXEZENT-AI OPAC-018 Green-Schur Bridge</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Axezent AI Research Lab</p>
+      <h1>OPAC-018 Green-Schur Bridge</h1>
+      <p class="subtitle">Clean Referee Edition v1.5.0 - solution-candidate package with exact-arithmetic audits and explicit truth boundaries.</p>
+      <div class="badges">
+        <span>Manifest Check</span>
+        <span>Pure Python Audit</span>
+        <span>Sage Manual Audit</span>
+        <span>External Review Pending</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card status">
+      <h2>Status</h2>
+      <p><strong>Truth label:</strong> SOLUTION-CANDIDATE / EXTERNAL REVIEW PENDING.</p>
+      <p>This project targets OPAC-018, the root-polytope projection bound. The package is designed for referee review and reproducibility, not for overclaiming.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Main theorem target</h3>
+        <p>For a crystallographic root system Phi and Phi-subspace U, the target is kappa(Phi,U) &lt; 2.</p>
+      </article>
+      <article class="card">
+        <h3>Audit support</h3>
+        <p>Exact-arithmetic Python and Sage scripts check finite Cartan sanity conditions and deterministic receipts.</p>
+      </article>
+      <article class="card">
+        <h3>Reviewer safeguards</h3>
+        <p>Docs address classification-free dependencies, asymptotic margin shrinkage, non-simply-laced scaling, oblique subspaces, and convex-hull containment.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Run locally</h2>
+      <pre><code>python verify_manifest.py
+python pure_python_exact_audit.py
+python counterexample_stress_test.py
+python verify_manifest.py</code></pre>
+      <p>Optional Sage:</p>
+      <pre><code>sage sage/opac18_green_schur_sage_test_fixed.sage</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Reviewer map</h2>
+      <ul>
+        <li><code>REFEREE_ROADMAP.md</code> - first file for outside review.</li>
+        <li><code>CLAIMS_AND_NONCLAIMS.md</code> - exact truth boundary.</li>
+        <li><code>docs/ASYMPTOTIC_MARGIN_CORRECTION.md</code> - prevents false uniform-gap claims.</li>
+        <li><code>docs/NON_SIMPLY_LACED_METRIC_SYMMETRIZER.md</code> - handles long-root/short-root scaling.</li>
+        <li><code>docs/CONVEX_HULL_CONTAINMENT_BRIDGE.md</code> - explains why linear projection prevents facet leakage after vertex containment.</li>
+      </ul>
+    </section>
+
+    <section class="card warning">
+      <h2>Truth boundary</h2>
+      <p>This package does not claim journal acceptance, official OPAC acceptance, P vs NP, RH, TSP, or historical recognition. The mathematical proof remains pending outside referee review.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Shawn Calvin Snelling - Axezent AI Research Lab - Clean Referee Edition v1.5.0</p>
+  </footer>
+</body>
+</html>
