@@ -1,0 +1,19 @@
+name: Counterexample Stress Test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  counterexample-stress-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run counterexample stress test
+        run: python counterexample_stress_test.py
+      - name: Verify SHA-256 manifest after deterministic stress test
+        run: python verify_manifest.py
