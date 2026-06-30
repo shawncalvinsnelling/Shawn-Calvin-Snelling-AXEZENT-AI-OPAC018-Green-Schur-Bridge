@@ -1,0 +1,11 @@
+{
+  "audit_type": "sage_exact_arithmetic_sanity_audit",
+  "failures": [],
+  "output": "receipts/opac18_green_schur_sage_results.json",
+  "package": "AXEZENT-AI-OPAC018-Green-Schur-Bridge",
+  "passed": true,
+  "systems": [],
+  "total_types": 32,
+  "truth_boundary": "Frozen placeholder receipt. Run sage sage/opac18_green_schur_sage_test_fixed.sage to regenerate a full Sage receipt.",
+  "version": "1.5.0"
+}

@@ -1,0 +1,42 @@
+{
+  "audit_type": "counterexample_stress_test_protocol",
+  "cases": [
+    {
+      "accepted": false,
+      "expected": "reject_positive_definiteness",
+      "name": "affine_A1_like_degenerate",
+      "reason": "rejected by rough hypothesis checks"
+    },
+    {
+      "accepted": false,
+      "expected": "reject_nonintegral_cartan_entries",
+      "name": "dense_fractional_not_cartan",
+      "reason": "rejected by rough hypothesis checks"
+    },
+    {
+      "accepted": false,
+      "expected": "reject_positive_off_diagonal",
+      "name": "positive_off_diagonal_not_root_cartan",
+      "reason": "rejected by rough hypothesis checks"
+    },
+    {
+      "accepted": false,
+      "expected": "reject_non_square",
+      "name": "non_square_input",
+      "reason": "rejected by rough hypothesis checks"
+    },
+    {
+      "accepted": false,
+      "expected": "outside_crystallographic_scope",
+      "name": "missing_crystallographic_integrality_symbolic_H2_like",
+      "reason": "symbolic irrational matrix is outside exact crystallographic integer Cartan audit"
+    }
+  ],
+  "output": "receipts/counterexample_stress_test_results.json",
+  "package": "AXEZENT-AI-OPAC018-Green-Schur-Bridge",
+  "passed": true,
+  "total_cases": 5,
+  "truth_boundary": "Stress tests document expected rejection/out-of-scope behavior. They do not prove OPAC-018.",
+  "unexpected_acceptances": [],
+  "version": "1.5.0"
+}

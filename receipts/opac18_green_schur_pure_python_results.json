@@ -1,0 +1,2018 @@
+{
+  "audit_type": "pure_python_exact_arithmetic_sanity_audit",
+  "failures": [],
+  "library_dependencies": [],
+  "output": "receipts/opac18_green_schur_pure_python_results.json",
+  "package": "AXEZENT-AI-OPAC018-Green-Schur-Bridge",
+  "passed": true,
+  "systems": [
+    {
+      "cartan": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 1
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 1
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 1,
+      "schur_single_deletion_checks": [
+        {
+          "removed_node": 1,
+          "skipped_rank_one": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1"
+      ],
+      "type": "A1"
+    },
+    {
+      "cartan": {
+        "determinant": "3",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "3",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 2,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "3/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "3/2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1"
+      ],
+      "type": "A2"
+    },
+    {
+      "cartan": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 3
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 3
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 3,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A3"
+    },
+    {
+      "cartan": {
+        "determinant": "5",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "5",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 4,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "5/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "5/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "5/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "5/2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A4"
+    },
+    {
+      "cartan": {
+        "determinant": "6",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "6",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 5,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "3",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "3",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "3",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "3",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "3",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A5"
+    },
+    {
+      "cartan": {
+        "determinant": "7881299347898367/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "7",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 6,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "7/2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A6"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/562949953421312",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "8",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 7,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "4",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A7"
+    },
+    {
+      "cartan": {
+        "determinant": "5066549580791807/562949953421312",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "9",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 8,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 8,
+          "schur_det": "9/2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "A8"
+    },
+    {
+      "cartan": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 2,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1/2"
+      ],
+      "type": "B2"
+    },
+    {
+      "cartan": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 3
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 3
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 3,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B3"
+    },
+    {
+      "cartan": {
+        "determinant": "2251799813685249/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 4,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B4"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 5,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B5"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 6,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B6"
+    },
+    {
+      "cartan": {
+        "determinant": "9007199254740987/4503599627370496",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 7,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B7"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 8,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 8,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1/2"
+      ],
+      "type": "B8"
+    },
+    {
+      "cartan": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 2
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 2,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "2"
+      ],
+      "type": "C2"
+    },
+    {
+      "cartan": {
+        "determinant": "2",
+        "max_abs_entry": "2",
+        "rank": 3
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 3
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 3,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C3"
+    },
+    {
+      "cartan": {
+        "determinant": "2251799813685249/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 4
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 4,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C4"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 5
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 5,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C5"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 6
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 6,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C6"
+    },
+    {
+      "cartan": {
+        "determinant": "9007199254740987/4503599627370496",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 7
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 7,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C7"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "4",
+        "rank": 8
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 8,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 8,
+          "schur_det": "1",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "type": "C8"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370497/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 4,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "D4"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370497/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 5
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 5,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "D5"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370495/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 6,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "D6"
+    },
+    {
+      "cartan": {
+        "determinant": "9007199254740987/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 7,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "D7"
+    },
+    {
+      "cartan": {
+        "determinant": "4503599627370493/1125899906842624",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 8,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 8,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "D8"
+    },
+    {
+      "cartan": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 6
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 6,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "E6"
+    },
+    {
+      "cartan": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 7
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 7,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "E7"
+    },
+    {
+      "cartan": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "4",
+        "max_abs_entry": "2",
+        "rank": 8
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": false,
+      "rank": 8,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 5,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 6,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 7,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 8,
+          "schur_det": "2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "type": "E8"
+    },
+    {
+      "cartan": {
+        "determinant": "2251799813685249/2251799813685248",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1/4",
+        "max_abs_entry": "2",
+        "rank": 4
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 4,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/8",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/8",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1",
+          "pivot_positive": true,
+          "removed_node": 3,
+          "schur_det": "1/4",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "1/4",
+          "pivot_positive": true,
+          "removed_node": 4,
+          "schur_det": "1/4",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1",
+        "1/2",
+        "1/2"
+      ],
+      "type": "F4"
+    },
+    {
+      "cartan": {
+        "determinant": "1",
+        "max_abs_entry": "3",
+        "rank": 2
+      },
+      "finite_rank_margin_model_note": "No uniform asymptotic gap is claimed; strict finite-rank bounds are the theorem target.",
+      "metric_G_equals_A_times_D_epsilon": {
+        "determinant": "1/3",
+        "max_abs_entry": "2",
+        "rank": 2
+      },
+      "metric_positive_definite": true,
+      "metric_symmetric": true,
+      "non_simply_laced": true,
+      "rank": 2,
+      "schur_single_deletion_checks": [
+        {
+          "correction_max_abs_entry": "1/2",
+          "pivot_positive": true,
+          "removed_node": 1,
+          "schur_det": "1/6",
+          "schur_positive_definite": true
+        },
+        {
+          "correction_max_abs_entry": "3/2",
+          "pivot_positive": true,
+          "removed_node": 2,
+          "schur_det": "1/2",
+          "schur_positive_definite": true
+        }
+      ],
+      "symmetrizer_d_epsilon": [
+        "1",
+        "1/3"
+      ],
+      "type": "G2"
+    }
+  ],
+  "total_types": 32,
+  "truth_boundary": "This audit supports reproducibility and exact arithmetic sanity checks. It does not replace independent proof review.",
+  "version": "1.5.0"
+}
